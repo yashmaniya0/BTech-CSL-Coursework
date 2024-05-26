@@ -1,0 +1,117 @@
+A privacy-enhancing technologies (PET) are technologies that embody fundamental data protection principles by minimizing personal data use, maximizing data security, and empowering individuals. PETs allow online users to protect the privacy of their personally identifiable information (PII) provided to and handled by services or applications. PETs use techniques to minimize possession of personal data without losing the functionality of an information system.[1] Generally speaking, PETs can be categorized as hard and soft privacy technologies. [2]
+Contents
+
+ivyhmdtbuqfjgloekawrpcxszn
+
+
+    1 Goals of PETs
+    2 Families of PETs
+        2.1 Soft privacy technologies
+        2.2 Hard privacy technologies
+    3 Existing PETs
+    4 Example PETs
+    5 Future PETs
+    6 See also
+    7 References
+        7.1 Notes
+    8 External links
+
+Goals of PETs
+
+The objective of PETs is to protect personal data and ensure the users of technology that their information is confidential and management of data protection is a priority to the organizations who withhold responsibility for any PII - allowing users to take one or more of the following actions related to their personal data sent to and used by, online service providers, merchants or other users.
+
+The goal of privacy-enhancing technologies include increasing control over personal data sent to, and used by, online service providers and merchants (or other online users)(self-determination). PETs aim to minimize personal data collected and used by service providers and merchants, use pseudonyms or anonymous data credentials to provide anonymity, and strive to achieve informed consent about giving personal data to online service providers and merchants.[3] In Privacy Negotiations, consumers and service providers establish, maintain, and refine privacy policies as individualized agreements through the ongoing choice among service alternatives, therefore providing the possibility to negotiate the terms and conditions of giving personal data to online service providers and merchants (data handling-privacy policy negotiation). Within private negotiations, the transaction partners may additionally bundle the personal information collection and processing schemes with monetary or non-monetary rewards.[4]
+
+PETs provide the possibility to remotely audit the enforcement of these terms and conditions at the online service providers and merchants (assurance), allow users to log, archive and look up past transfers of their personal data, including what data has been transferred, when, to whom and under what conditions, and facilitate the use of their legal rights of data inspection, correction and deletion. PETs also provide the opportunity for consumers or people who want privacy-protection to hide their personal identities. The process involves masking one's personal information and replace that information with a pseudo data or an anonymous identity.
+Families of PETs
+
+Privacy-enhancing Technologies can be distinguished based on their assumption. [2]
+Soft privacy technologies
+Main article: Soft privacy technologies
+
+Where it is assumed that the third-party can be trusted for the processing of data. This model is based on compliance, consent, control and audit.[2]
+
+Example technologies are access control, differential privacy, and tunnel encryption (SSL-TLS).
+Hard privacy technologies
+Main article: Hard privacy technologies
+
+No single entity can violate the privacy of the user. It assumes that third-parties cannot be trusted. The data protection goal is data minimization and reduction of the trust in third-parties.[2]
+
+Examples of such technologies include onion routing, the secret ballot, and VPNs[5] used for democratic elections.
+Existing PETs
+
+PETs have evolved since their first appearance in the 1980s. At intervals, review articles have been published on the state of privacy technology:
+
+    A principal, though fundamentally theoretical overview of terminology and principal anonymization technology is found in Pfitzmann & Hansen's terminology of anonymity.[6]
+    In 1997, a report by Goldberg, Wagner and Brewer at the University of California in Berkeley summarized PETs.[7]
+    In 2003, Borking, Blarkom and Olk reviewed the technologies from a data protection perspective in their Handbook of privacy enhancing technologies.[1]
+    In 2007, Fritsch published an historic, taxonomic and practical overview of contemporary privacy-enhancing technology for the Internet for the research project PETWeb.[8]
+    In 2008, Fritsch and Abie documented the gap between implemented PETs and their successful deployment in a research roadmap for PETs.[9]
+    In 2015, Heurix et al. published a taxonomy of privacy enhancing technologies.[10]
+    A specialization of PET research that looks into increasing transparency of data processing researches Transparency Enhancing Technologies (TETs). A review article by Janic et. al. summarizes the developments.[11] Murmann and Fischer-Hbner published in 2017 a review of transparency tools.[12]
+
+Example PETs
+
+Examples of existing privacy enhancing technologies are:
+
+    Communication anonymizers hiding the real online identity (email address, IP address, etc.) and replacing it with a non-traceable identity (disposable - one-time email address, random IP address of hosts participating in an anonymising network, pseudonym, etc.). They can be applied to email, Web browsing, P2P networking, VoIP, Chat, instant messaging, etc.
+    Shared bogus online accounts. One person creates an account for MSN, providing bogus data for Name, address, phone number, preferences, life situation etc. They then publish their user-IDs and passwords on the Internet. Everybody can now use this account comfortably. Thereby the user is sure that there is no personal data about him or her in the account profile. (Moreover, he is freed from the hassle of having to register at the site himself.)
+    Obfuscation refers to the many practices of adding distracting or misleading data to a log or profile, which may be especially useful for frustrating precision analytics after data has already been lost or disclosed. Its effectiveness against humans is questioned, but it has greater promise against shallow algorithms.[13][14][15][16] Obfuscating also hides personal information or sensitive data through computer algorithms and masking techniques. This technique can also involve adding misleading or distracting data or information so it's harder for an attacker to obtain the needed data.
+    Access to personal data: The service provider's infrastructure allows users to inspect, correct or delete all their data stored at the service provider.
+    Enhanced privacy ID (EPID) is a digital signature algorithm supporting anonymity. Unlike traditional digital signature algorithms (e.g., PKI), in which each entity has a unique public verification key and a unique private signature key, EPID provides a common group public verification key associated with many of unique private signature keys.[17] EPID was created so that a device could prove to an external party what kind of device it is (and optionally what software is running on the device) without needing to also reveal exact identity, i.e., to prove you are an authentic member of a group without revealing which member. It has been in use since 2008.
+    Homomorphic encryption is a form of encryption that allows computation on ciphertexts.
+    Zero-knowledge proof is a method by which one party (the prover) can prove to another party (the verifier) that they know a value x, without conveying any information apart from the fact that they know the value x.
+    Secure multi-party computation is a method for parties to jointly compute a function over their inputs while keeping those inputs private.
+    Non-interactive zero-knowledge proof (NIZKs) are zero-knowledge proofs that require no interaction between the prover and verifier.
+    Format-preserving encryption (FPE), refers to encrypting in such a way that the output (the ciphertext) is in the same format as the input (the plaintext)
+    Blinding is a cryptography technique by which an agent can provide a service to a client in an encoded form without knowing either the real input or the real output.
+    Differential privacy: An algorithm is constrained so that the results or outputs of a data analysis can't tell if a certain individuals information is being used to analyze and form the results. This technique focuses on large databases and hides the identity of individual "inputs" who might have private data and privacy concerns,
+    Pseudonymization is a data management technique that replaces an individual's identity or personal information with an artificial identifiers known as Pseudonyms. This de-identification method enables contents and fields of information to be covered up so as to deter attacks and hackers from obtaining important information. These Pseudonyms can be either placed in groups or for individual pieces o information. Overall, they serve to discourage information stealing while also maintaining data integrity and data analysis. [18]
+
+Future PETs
+
+Examples of privacy enhancing technologies that are being researched or developed include[19] limited disclosure technology, anonymous credentials such as online car rental, negotiation and enforcement of data handling conditions, and data transaction log. Limited disclosure technology provides a way of protecting individuals' privacy by allowing them to share only enough personal information with service providers to complete an interaction or transaction. This technology is also designed to limit tracking and correlation of users interactions with these third parties. Limited disclosure uses cryptographic techniques and allows users to retrieve data that is vetted by a provider, to transmit that data to a relying party, and have these relying parties trust the authenticity and integrity of the data.[20] Anonymous credentials are asserted properties or rights of the credential holder that don't reveal the true identity of the holder; the only information revealed is what the holder of the credential is willing to disclose. The assertion can be issued by the user himself-herself, by the provider of the online service or by a third party (another service provider, a government agency, etc.). For example:
+
+Online car rental. The car rental agency doesn't need to know the true identity of the customer. It only needs to make sure that the customer is over 23 (as an example), that the customer has a drivers license, health insurance (i.e. for accidents, etc.), and that the customer is paying. Thus there is no real need to know the customers name nor their address or any other personal information. Anonymous credentials allow both parties to be comfortable: they allow the customer to only reveal so much data which the car rental agency needs for providing its service (data minimization), and they allow the car rental agency to verify their requirements and get their money. When ordering a car online, the user, instead of providing the classical name, address and credit card number, provides the following credentials, all issued to pseudonyms (i.e. not to the real name of the customer):
+
+    An assertion of minimal age, issued by the state, proving that the holder is older than 23 (note: the actual age is not provided)
+    A driving licence, i.e. an assertion, issued by the motor vehicle control agency, that the holder is entitled to drive cars
+    A proof of insurance, issued by the health insurance
+    Digital cash
+
+Negotiation and enforcement of data handling conditions. Before ordering a product or service online, the user and the online service provider or merchant negotiate the type of personal data that is to be transferred to the service provider. This includes the conditions that shall apply to the handling of the personal data, such as whether or not it may be sent to third parties (profile selling) and under what conditions (e.g. only while informing the user), or at what time in the future it shall be deleted (if at all). After the transfer of personal data took place, the agreed upon data handling conditions are technically enforced by the infrastructure of the service provider, which is capable of managing and processing and data handling obligations. Moreover, this enforcement can be remotely audited by the user, for example by verifying chains of certification based on Trusted computing modules or by verifying privacy seals-labels that were issued by third party auditing organizations (e.g. data protection agencies). Thus instead of the user having to rely on the mere promises of service providers not to abuse personal data, users will be more confident about the service provider adhering to the negotiated data handling conditions [21] Lastly, the data transaction log allows users the ability to log the personal data they send to service provider(s), the time in which they do it, and under what conditions. These logs are stored and allow users to determine what data they have sent to whom, or they can establish the type of data that is in possession by a specific service provider. This leads to more transparency, which is a pre-requisite of being in control. 
+
+Crypto-shredding is the practice of 'deleting' data by deliberately deleting or overwriting the encryption keys.[1] This requires that the data have been encrypted. Data comes in these three states: data at rest, data in transit and data in use. In the CIA triad of confidentiality, integrity, and availability all three states must be adequately protected.
+
+Getting rid of data at rest like old backup tapes, data stored in the cloud, computers, phones, and multi-function printers can be challenging when confidentiality of information is of concern; when encryption is in place it allows for smooth disposal of data. Confidentiality and privacy are big drivers of encryption.
+Contents
+
+    1 Motive
+    2 Use
+    3 Best practices
+    4 Security considerations
+    5 References
+
+Motive
+
+The motive of deleting data can be: defect product, old product, no further use of data, no legal right to retain data any longer, etc. Legal obligations can come from rules like: the right to be forgotten, the General Data Protection Regulation, etc.
+Use
+
+In some cases everything is encrypted (e.g. harddisk, computer file, database, etc.) but in other cases only specific data (e.g. passport number, social security number, bank account number, person name, record in a database, etc.) is encrypted. In addition, the same specific data in one system can be encrypted with another key in another system. The more specific each piece of data is encrypted (with different keys) the more specific data can be shredded.
+
+Example: iOS devices use crypto-shredding when activating the "Erase all content and settings" by discarding all the keys in 'effaceable storage'. This renders all user data on the device cryptographically inaccessible.[2]
+Best practices
+
+    Storing encryption keys securely is important for shredding to be effective. There is no effect when a symmetric or asymmetric encryption key is shredded when it has already been compromised (copied). A Trusted Platform Module addresses this issue. A hardware security module is one of the safest ways to use and store encryption keys.
+    Bring your own encryption refers to a cloud computing security model to help cloud service customers to use their own encryption software and manage their own encryption keys.
+    Salt: Hashing can be inadequate for confidentiality, because the hash is always the same. For example: The hash of a specific social security number can be reverse engineered by the help of rainbow tables. Salt addresses this problem.
+
+Security considerations
+
+    Encryption strength can be weaker over time when computers get faster or flaws are found.
+    Brute-force attack: If the data is not adequately encrypted it is still possible to decrypt the information through brute force. Quantum computing has the potential to speed up a brute force attack in the future.[3] However, quantum computing is less effective against symmetric encryption than public-key encryption. Assuming the use of symmetric encryption, the fastest possible attack is Grover's algorithm, which can be mitigated by using larger keys.[4]
+    Data in use. For example: the (plaintext) encryption keys temporarily used in RAM can be threatened by cold boot attacks, hardware advanced persistent threats, rootkits-bootkits, computer hardware supply chain attacks, and physical threats to computers from insiders (employees).
+    Data remanence: For example: When data on a harddisk is encrypted after it has been stored there is a chance that there is still unencrypted data on the harddisk. Encrypting data does not automatically mean it will overwrite exactly the same location of the unencrypted data. Also bad sectors cannot be encrypted afterwards. It is better to have encryption in place before storing data.
+    Hibernation is a threat to the use of an encryption key. When an encryption key is loaded into RAM and the machine is hibernated at that time, all memory, including the encryption key, is stored on the harddisk (outside of the encryption key's safe storage location).
+
+The mentioned security issues are not specific to crypto-shredding, but apply in general to encryption. In addition to crypto-shredding, data erasure, degaussing and physically shredding the physical device (disk) can mitigate the risk further.

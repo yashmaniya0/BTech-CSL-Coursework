@@ -1,0 +1,60 @@
+Enter number of Frames: 
+Enter the Pages array (pages[i]>0): 
+
+Page Faults encountered in the corresponding algos :
+
+FIFO: 9
+LRU: 8
+OPR: 6
+
+For Belady's anomaly, Please enter the number of simulations: 
+Belady's Anomaly detected
+Number of frames: 17     ||     Faults: 72
+Number of frames: 18     ||     Faults: 73
+
+Belady's Anomaly detected
+Number of frames: 18     ||     Faults: 66
+Number of frames: 19     ||     Faults: 67
+
+Belady's Anomaly detected
+Number of frames: 20     ||     Faults: 52
+Number of frames: 21     ||     Faults: 54
+
+Belady's Anomaly detected
+Number of frames: 17     ||     Faults: 67
+Number of frames: 18     ||     Faults: 69
+
+Belady's Anomaly detected
+Number of frames: 13     ||     Faults: 78
+Number of frames: 14     ||     Faults: 79
+
+Belady's Anomaly detected
+Number of frames: 17     ||     Faults: 68
+Number of frames: 18     ||     Faults: 69
+
+Belady's Anomaly detected
+Number of frames: 19     ||     Faults: 64
+Number of frames: 20     ||     Faults: 65
+
+Belady's Anomaly detected
+Number of frames: 20     ||     Faults: 55
+Number of frames: 21     ||     Faults: 56
+
+Belady's Anomaly detected
+Number of frames: 20     ||     Faults: 60
+Number of frames: 21     ||     Faults: 61
+
+Belady's Anomaly detected
+Number of frames: 16     ||     Faults: 77
+Number of frames: 17     ||     Faults: 78
+
+Belady's Anomaly detected
+Number of frames: 20     ||     Faults: 54
+Number of frames: 21     ||     Faults: 55
+
+Belady's Anomaly detected
+Number of frames: 15     ||     Faults: 82
+Number of frames: 16     ||     Faults: 84
+
+
+Belady's Anomaly detected in [12 / 200] simulations.
